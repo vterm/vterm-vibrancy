@@ -1,5 +1,4 @@
 import Store              from 'vterm/store'
-import { styleComponent } from 'vterm/extend'
 import { BACKGROUND }     from 'vterm/variables'
 
 import color              from 'color'
