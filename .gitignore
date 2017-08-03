@@ -1,0 +1,4 @@
+node_modules
+yarn_error.log
+npm_error.log
+distribution.js
