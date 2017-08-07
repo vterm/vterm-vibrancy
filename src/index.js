@@ -8,7 +8,10 @@ export default class Plugin {
   // In the constructor we do several things:
   // - Define wich should be the normal
   //   background color value
-  // -
+  // - Define the vibrancy and the opacity
+  //   of the background
+  // - Make the electron window use opacity
+  //   and update the background accordingly
   constructor() {
     // Get currentWindow object
     const __window = remote.getCurrentWindow()
